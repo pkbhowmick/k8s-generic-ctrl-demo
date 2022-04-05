@@ -1,0 +1,12 @@
+domain: example.com
+layout:
+- go.kubebuilder.io/v3
+projectName: test-kube
+repo: github.com/pkbhowmick/test-kube
+resources:
+- controller: true
+  domain: example.com
+  group: manager
+  kind: OpsManagerConfig
+  version: v1alpha1
+version: "3"
